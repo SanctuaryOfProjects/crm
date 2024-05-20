@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-mshgeb9+40xkx141(3^af--g!4#6gawqw6w0g&!ro9qnl0heq6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crm-production-7ce6.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ["https://crm-production-7ce6.up.railway.app"]
+#CSRF_TRUSTED_ORIGINS = ["https://crm-production-7ce6.up.railway.app"]
 
 
 # Application definition
@@ -78,13 +78,13 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'DATBASE_URL': 'postgresql://postgres:eDmmHWSjqjjzxqhYIPWAhnzopsuJaHGg@roundhouse.proxy.rlwy.net:29412/railway',
+        'DATBASE_URL': 'postgresql://postgres:oSWPajbENCfMSloJHSKVXVxbZBgerpyJ@roundhouse.proxy.rlwy.net:38582/railway',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'eDmmHWSjqjjzxqhYIPWAhnzopsuJaHGg',
+        'PASSWORD': 'oSWPajbENCfMSloJHSKVXVxbZBgerpyJ',
         'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '29412',
+        'PORT': '38582',
     }
 }
 
